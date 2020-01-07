@@ -23,9 +23,14 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+    <script src="lib/js/jquery-1.11.1.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("./footer.html"); 
+    });
+    </script> 
 </head>
 <body>
-
 
 	<div class="container">
 		<div>
@@ -116,29 +121,29 @@
   </div>
 </div>
 
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<p align="center">
-					<a href="index.html">Home</a> |
-					<a href="committee.html">Committee</a> |
-					<a href="submission.html">Submission</a> |
-					<a href="accepted_papers.html">Accepted Papers</a> |
-					<a href="keynote.html">Keynote</a> |
-					<a href="programme.html">Programme</a>
-				</p>
-				<p align="center"> ACM EdgeSys 2020. Powered by <a
-								href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
-				</p>
-				<p align="center">
-				&copy; <a href="https://www.linkedin.com/in/vittorio-cozzolino-58177148/" target="_blank">Vittorio Cozzolino</a>
-				</p>
-			</div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p align="center">
+            <a href="index.html">Home</a> |
+            <!-- <a href="committee.html">Committee</a> | -->
+			<a href="submission.html">Submission</a> |
+			<!-- <a href="accepted_papers.html">Accepted Papers</a> | -->
+            <!-- <a href="keynote.html">Keynote</a> | -->
+            <!-- <a href="programme.html">Programme</a> -->
+          </p>
+          <p align="center"> ACM EdgeSys 2020. Powered by <a
+                  href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
+          </p>
+          <p align="center">
+          &copy; <a href="https://www.linkedin.com/in/vittorio-cozzolino-58177148/" target="_blank">Vittorio Cozzolino</a>
+          </p>
+        </div>
 
-		</div>
-	</div>
-</footer>
+      </div>
+    </div>
+  </footer>
 <!-- FOOTER SECTION END-->
 
 <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
