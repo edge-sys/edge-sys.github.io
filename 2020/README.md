@@ -1,1 +1,1 @@
-EdgeSys 2018, Munich, Germany
+EdgeSys 2020
