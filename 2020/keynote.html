@@ -43,10 +43,10 @@
 
 				<button onclick="location.href='index.html'" type="button" class="btn btn-primary btn-block">Home</button>
 				<button onclick="location.href='committee.html'" type="button" class="btn btn-primary btn-block">Committee</button>
-				<button onclick="location.href='keynote.html'" type="button" class="btn btn-primary btn-block active">Keynote</button>
-				<button onclick="location.href='programme.html'" type="button" class="btn btn-primary btn-block">Programme</button>
+				<button onclick="location.href='keynote.html'" type="button" class="btn btn-primary btn-block active" disabled>Keynote</button>
+				<button onclick="location.href='programme.html'" type="button" class="btn btn-primary btn-block" disabled>Programme</button>
 				<button onclick="location.href='submission.html'" type="button" class="btn btn-primary btn-block">Submission</button>
-				<button onclick="location.href='accepted_papers.html'" type="button" class="btn btn-primary btn-block">Accepted Papers</button>
+				<button onclick="location.href='accepted_papers.html'" type="button" class="btn btn-primary btn-block" disabled>Accepted Papers</button>
 				<br>
 
 				<div>
@@ -56,47 +56,24 @@
 
 			<div class="col-xs-12 col-sm-9" style="min-height: 100%; margin-bottom:3em">
 				<div id="content" class="col-xs-12 col-sm-3 text-justify" style="line-height: initial">
-					<img src="lib/resources/mortier.jpg" style="width:100%;" alt="richard-mortier">
+					<img src="lib/resources/perino.jfif" style="width:100%;" alt="richard-mortier">
 				</div>
 
 				<div id="content" class="col-xs-12 col-sm-9" style="margin-bottom: 3em">
 					<div class="row">
-						<h4><a href="https://scholar.google.com/citations?user=9LJgRFAAAAAJ">Richard Mortier, University of Cambridge</a></h4>
+						<h4><a href="http://www.diegoperino.com/">Diego Perino, Telefonica</a></h4>
 					</div>
 					<div class="row">
-						<p><b>Title:</b> On the Edge of Human-Data Interaction with the Databox</p>
+						<p><b>Title:</b> TBD</p>
 					</div>
 					<div class="row text-justify">
-						<p><b>Abstract:</b> We are all the subjects of data collection and processing systems that use data generated both about and by us to support many services. Means for others to use such data -- often referred to possessively as "your data" -- are only increasing with the long-heralded advent of the Internet of Things just the latest example. Simultaneously, many jurisdictions have regulatory and statutory instruments to govern the use of such data. Means to enable personal data management is thus increasingly recognised as a pressing societal issue.</p>
+						<p><b>Abstract:</b> TBD</p>
 
-						<p>We previously formulated a notion of Human-Data Interaction (HDI) in an attempt to bring some structure to the space. This resulted in the Databox, a platform enabling an individual data subject to manage, log and audit access to their data by others. The fundamental architectural change Databox embodies is to move from copying of personal data by others for central processing, to distribution of data analysis to a subject-controlled edge platform for execution. This provides a basis for data subjects to obtain HDI's legibility, agency and negotiability in the use of their data. I will introduce HDI, and present the Databox platform design, implementation and current status.</p>
-
-						<p> For more information, see https://www.databoxproject.uk/ or join the discussions at https://forum.databoxproject.uk/ </p>
 					</div>
 					<div class="row text-justify">
-						<p><b>Bio:</b> Richard Mortier is the Reader in Computing and Human-Data Interaction in the Systems Research Group of the University of Cambridge Department of Computer Science & Technology (aka The Computer Laboratory). His past research has included work on Internet routing stability, distributed system performance analysis, network management, massively scalable databases, aesthetic designable machine-readable codes, and home network usability and security. He mixes systems with HCI, seeking to build user-centric systems infrastructure to enable Human-Data Interaction in our ubiquitous computing world.
+						<p><b>Bio:</b> I am the Director of Telefonica Research and I lead a team of researchers in Machine Learning, HCI, Privacy, Networks and Systems. Currently, I am also leading ARIANA, a Telefonica Innovation startup project leveraging Artificial Intelligence for Automatic Network Actions. Previously I worked at Bell Labs (Paris, France) from September 2009 to June 2016 and six months at NICTA (Sydney, Australia) in 2016 as visiting researcher.
 
-						For more see http://mort.io</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-xs-12 col-sm-9" style="min-height: 100%; float: right">
-				<div id="content" style="min-height: 500px" class="col-xs-12 col-sm-3 text-justify">
-					<img src="lib/resources/andreaa_florescu.jpeg" style="width:100%;" alt="andresa-florescu">
-				</div>
-
-				<div id="content" class="col-xs-12 col-sm-9">
-					<div class="row">
-						<h4><a href="https://www.linkedin.com/in/andreea-florescu-670a4a75/">Andreea Florescu, Amazon</a></h4>
-					</div>
-					<div class="row">
-						<p><b>Title:</b> Firecracker microVMs - How to Securely Run Thousands of Workloads on a Single Host</p>
-					</div>
-					<div class="row text-justify">
-						<p><b>Abstract:</b> Serverless computing offers increased agility and scalability for users, in part since the cloud providers own the management of the underlying infrastructure. Services such as AWS Lambda and Fargate leverage hardware virtualization to provide strong isolation between multiple tenants. Until recently, this was based on full EC2 instances, which run stateless, short-lived serverless workloads at suboptimal densities. To break out of the status quo, we developed Firecracker as a fundamental building block for multi-tenant container and function-based services.<p>
-
-						<p>Firecracker is a security focused virtual machine monitor written in Rust, that runs on top of KVM and is amenable to CPU and memory oversubscription. It implements a minimalist device model, boots blazingly fast, and only incurs a very low memory overhead. Firecracker is already used to run production workloads, and its development continues as an open-source project.</p>
+						My personal research areas are networking, systems and protocols. My current research interests include network measurements, AI/ML for networks, NFV/SDN, wearable networking, security, blockchain and distributed systems.</p>
 					</div>
 				</div>
 			</div>
@@ -133,11 +110,10 @@
 						<a href="index.html">Home</a> |
             <a href="committee.html">Committee</a> |
 						<a href="submission.html">Submission</a> |
-						<a href="accepted_papers.html">Accepted Papers</a> |
             <a href="keynote.html">Keynote</a> |
             <a href="programme.html">Programme</a>
           </p>
-					<p align="center"> ACM EdgeSys 2019. Powered by <a
+					<p align="center"> ACM EdgeSys 2020. Powered by <a
                 href="http://getbootstrap.com/" target="_blank">Bootstrap</a>.
         </p>
         <p align="center">
