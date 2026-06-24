@@ -1,104 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="description" content="" />
-  <!--[if IE]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <![endif]-->
-  <title>EdgeSys Programme</title>
-  <!-- BOOTSTRAP CORE STYLE  -->
-  <link href="lib/css/bootstrap.css" rel="stylesheet" />
-  <!-- FONT AWESOME ICONS  -->
-  <!-- <link href="lib/css/font-awesome.css" rel="stylesheet" /> -->
-  <!-- CUSTOM STYLE  -->
-  <link href="lib/css/style.css" rel="stylesheet" />
-  <link rel="shortcut icon" href="lib/resources/favicon.ico" type="image/x-icon; charset=binary">
-  <link rel="icon" href="lib/resources/favicon.ico" type="image/x-icon; charset=binary">
-  <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <![endif]-->
+    <title>EdgeSys Programme</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="lib/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <!-- <link href="lib/css/font-awesome.css" rel="stylesheet" /> -->
+    <!-- CUSTOM STYLE  -->
+    <link href="lib/css/style.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="lib/resources/favicon.ico"
+      type="image/x-icon; charset=binary"
+    />
+    <link
+      rel="icon"
+      href="lib/resources/favicon.ico"
+      type="image/x-icon; charset=binary"
+    />
+    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<style>
+  <style>
+    .session-header {
+      text-align: center;
+      color: white;
+      margin-top: 5px;
+    }
+  </style>
 
-.session-header {
-  text-align: center;
-  color: white;
-  margin-top: 5px;
-}
+  <body>
+    <div class="container">
+      <div>
+        <p>
+          <img
+            src="lib/resources/edgesys-2026.jpg"
+            class="img-responsive"
+            alt="EdgeSys 2026"
+          /><br />
+        </p>
+      </div>
 
-</style>
-
-<body>
-  <div class="container">
-
-		<div>
-      <p><img src="lib/resources/edgesys-2026.jpg" class="img-responsive"
-              alt="EdgeSys 2026"><br /></p>
-    </div>
-
-
-    <div class="content">
+      <div class="content">
         <div class="row">
           <div class="col-xs-12 col-sm-3">
+            <div>
+              <a href="https://www.sigmobile.org/mobisys/2026/"
+                ><img
+                  style="padding-bottom: 1em"
+                  class="img-responsive"
+                  src="lib/resources/venue_img/banner2026.jpg"
+              /></a>
+            </div>
 
-          <div>
-              <a href="https://www.sigmobile.org/mobisys/2026/"><img style="padding-bottom:1em" class="img-responsive" src="lib/resources/venue_img/banner2026.jpg"/></a>
+            <button
+              onclick="location.href = 'index.html'"
+              type="button"
+              class="btn btn-primary btn-block"
+            >
+              Home
+            </button>
+            <button
+              onclick="location.href = 'committee.html'"
+              type="button"
+              class="btn btn-primary btn-block"
+            >
+              Committee
+            </button>
+            <button
+              onclick="location.href = 'keynote.html'"
+              type="button"
+              class="btn btn-primary btn-block"
+            >
+              Keynote
+            </button>
+            <button type="button" class="btn btn-primary btn-block active">
+              Programme
+            </button>
+            <button
+              onclick="location.href = 'submission.html'"
+              type="button"
+              class="btn btn-primary btn-block"
+            >
+              Call For Papers
+            </button>
+            <button
+              onclick="location.href = 'accepted_papers.html'"
+              type="button"
+              class="btn btn-primary btn-block"
+            >
+              Accepted Papers
+            </button>
+
+            <br />
+
+            <div style="padding-bottom: 1em; text-align: center">
+              <a href="https://x.com/edge_sys">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="40"
+                  height="40"
+                  aria-label="X (formerly Twitter)"
+                  style="color: #000"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div>
+              <img
+                style="padding-bottom: 1em"
+                class="img-responsive"
+                src="lib/resources/acm_sig.png"
+              />
+            </div>
           </div>
 
+          <!-- MENU SECTION END-->
 
-
-						<button onclick="location.href='index.html'" type="button" class="btn btn-primary btn-block">Home</button>
-						<button onclick="location.href='committee.html'" type="button" class="btn btn-primary btn-block">Committee</button>
-						<button onclick="location.href='keynote.html'" type="button" class="btn btn-primary btn-block">Keynote</button>
-						<button type="button" class="btn btn-primary btn-block active">Programme</button>
-						<button onclick="location.href='submission.html'" type="button" class="btn btn-primary btn-block">Call For Papers</button>
-						<button onclick="location.href='accepted_papers.html'" type="button" class="btn btn-primary btn-block">Accepted Papers</button>
-
-						<br>
-
-						<div style="padding-bottom:1em; text-align: center;">
-							<a href="https://x.com/edge_sys">
-								<svg viewBox="0 0 24 24" width="40" height="40" aria-label="X (formerly Twitter)" style="color: #000;">
-									<path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-								</svg>
-							</a>
-						</div>
-
-						<div>
-								<img style="padding-bottom:1em" class="img-responsive" src="lib/resources/acm_sig.png"/>
-						</div>
-          </div>
-
-<!-- MENU SECTION END-->
-
-	 <h3 style="text-align:center"> ⚠️ The time listed below is British Summer Time (BST) ~ UTC +1 ⚠️ </h3>
-
-    <div id="content">
-        <div class="col-xs-12 col-sm-9">
-            <div class="col-md-12" id="day1">
-                <table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
+          <h3 style="text-align: center">
+            📍 LT2, William Gates Building, 15 JJ Thomson Ave, Cambridge CB3 0FD
+          </h3>
+          <h3 style="text-align: center">
+            ⚠️ The time listed below is British Summer Time (BST) ~ UTC +1
+          </h3>
+          <div id="content">
+            <div class="col-xs-12 col-sm-9">
+              <div class="col-md-12" id="day1">
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
                   <tr>
-                    <th style="background-color: #5a5a5a;">
-                      <h3 class="session-header">
-                        Registration <br/> </h3>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">08:00 - 08:50</h3>
+                    <th style="background-color: #5a5a5a">
+                      <h3 class="session-header">Registration <br /></h3>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        08:00 - 08:50
+                      </h3>
                     </th>
                   </tr>
                 </table>
 
-				<table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
                   <tr>
-                    <th style="background-color: #5a5a5a;">
+                    <th style="background-color: #5a5a5a">
                       <h2 class="session-header">Opening Remarks</h2>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">08:50 - 09:00</h3>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        08:50 - 09:00
+                      </h3>
                     </th>
                   </tr>
                   <tr>
@@ -106,7 +190,9 @@
                       <header>
                         <span>
                           <i>
-                            Atakan Aral (University of Vienna), Poonam Yadav (University of York), Vadim Safronov (University of Oxford)
+                            Atakan Aral (University of Vienna), Poonam Yadav
+                            (University of York), Vadim Safronov (University of
+                            Oxford)
                           </i>
                         </span>
                       </header>
@@ -114,476 +200,679 @@
                   </tr>
                 </table>
 
-        <table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                    <tr>
-                      <th style="background-color: #5a5a5a;">
-                        <h2 class="session-header">
-                          Session #1: Inference on Mobile SoCs
-                        </h2>
-                        <br>
-                        <h3 style="text-align: center;color: white; margin-top:-20px">09:00 - 09:55</h3>
-                      </th>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>Understanding Concurrent DNN Interference on Mobile SoCs</h4>
-																<br>
-                                <span>
-                                    <i>
-                                     Zilin Ye, Qianyi HUANG (Sun Yat-sen University)
-								</i>
-                                </span>
-                            </header>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>Phase Matters: Characterizing Heterogeneous Vision-Language Inference on a Mobile SoC</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                     Aryama V Murthy, Yashas N Kotre, Prathmesh Sharma, Pragya Mishra, Sanjith Ganapathi, Priyesh Shukla (International Institute of Information Technology Hyderabad, India)
-                </i>
-                                </span>
-                            </header>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>ThermalPrint: ML Workload Classification via Thermal Side-Channels</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                      Cenxi Tian, Soteris Demetriou (Imperial College London)
-                    </i>
-                                </span>
-                            </header>
-                        </td>
-                    </tr>
-              </table>
-
-			<table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
                   <tr>
-                    <th style="background-color: #5a5a5a;">
-                      <h3 class="session-header">
-                        Keynote #1: Dominic Pajak - Arm<br>
-                        Hybrid AI: Rethinking Where Intelligence Lives
-			</h3>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">09:55 - 10:35</h3>
-                    </th>
-                  </tr>
-                </table>
-
-                <table class="table table-striped table-responsive" style="border: 1px solid #969090;">
-                  <tr>
-                    <th style="background-color: #969090;">
-                      <h3 class="session-header">
-                       Coffee Break ☕
+                    <th style="background-color: #5a5a5a">
+                      <h2 class="session-header">
+                        Session #1: Inference on Mobile SoCs
+                      </h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        09:00 - 09:55
                       </h3>
-                      <br>
-                      <h4 style="text-align: center;color: white; margin-top: -30px">
-                        10:35 - 10:55
-                      </h4>
                     </th>
                   </tr>
-        </table>
 
-        <table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                    <tr>
-                      <th style="background-color: #5a5a5a;">
-                        <h2 class="session-header">
-                          Session #2: ML Platforms and Evaluation Frameworks
-                        </h2>
-                        <br>
-                        <h3 style="text-align: center;color: white; margin-top:-20px">10:55 - 11:50</h3>
-                      </th>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>Architecture Adaptation for Pretrained Models on Constrained Edge AI Accelerators</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                     Matteo Gottardelli, Gaosheng Liu, Kasim Sinan Yildirim (University of Trento)
-								</i>
-                                </span>
-                            </header>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>EdgeStressBench: A Framework for Reproducible Evaluation of Edge Systems Under Resource Stress</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                      Maryam Pourreza, Priya Narasimhan (Carnegie Mellon University)
-                    </i>
-                                </span>
-                            </header>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>Morphling: Emulator for Distributed Machine Learning at the Edge</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                      Leyang Xue, Yufeng Xia, Eren Mendi, Ismaeel Bashir, Jiaxun Yang (University of Edinburgh), Myungjin Lee (Cisco Research), Mahesh Marina (University of Edinburgh)
-                    </i>
-                                </span>
-                            </header>
-                        </td>
-                    </tr>
-              </table>
-
-                <table class="table table-striped table-responsive" style="border: 1px solid #969090;">
                   <tr>
-                    <th style="background-color: #969090;">
-                      <h2 class="session-header">
-                        Lunch Break 🥗 🍖 🍺
-                      </h2>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">11:50 - 12:50</h3>
-                    </th>
-                  </tr>
-              </table>
-
-                <table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                    <tr>
-                      <th style="background-color: #5a5a5a;">
-                        <h2 class="session-header">
-                          Session #3: Sensing, Networking, and Stream Processing
-                        </h2>
-                        <br>
-                        <h3 style="text-align: center;color: white; margin-top:-20px">12:50 - 13:45</h3>
-                      </th>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>locRoaming: Seamless Private 5G WiFi Convergence through Continuous Client Positioning</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                      Yu-Tai Lin (Georgia Institute of Technology), Mohamed Ibrahim, Shivang Aggarwal (HPE Labs), Haofan Lu (UCLA), Puneet Sharma (Hewlett Packard Labs), Karthikeyan Sundaresan (Georgia Institute of Technology)
-                    </i>
-                                </span>
-                            </header>
-                        </td>
-                    </tr>
-
-                      <tr>
-                        <td>
-                            <header>
-                                <h4>GridAI: Edge AI Smart Grid Fault Detection with Goal-Oriented Communication</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                      M. Burak Aydar (METU, FRESHDATA Technology), Sajjad Baghaee (METU), Keyvan Firuzi (HV LAB, METU), Elif Uysal (METU, FRESHDATA Technology), Görkem Yıldırım (METU)
-                    </i>
-                                </span>
-                            </header>
-                        </td>
-            </tr>
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>Wagg: Cost-aware Aggregation of Windowing Operators in Stream Processing</h4>
-                                <br>
-                                <span>
-                                    <i>
-                                      Pritish Mishra (University of Toronto), Ruoyu Deng (McGill University), Alexandre da Silva Veith (Nokia Bell Labs), Oana Balmau (McGill University), Eyal de Lara (University of Toronto)
-                    </i>
-                                </span>
-                            </header>
-                        </td>
-            </tr>
-            </table>
-
-              <table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                  <tr>
-                    <th style="background-color: #5a5a5a;">
-                      <h3 class="session-header">
-                        Keynote #2: Niki Trigoni - University of Oxford<br>
-                        Location, Mapping and Semantic Scene Understanding of Complex Workplace Scenes
-      </h3>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">13:45 - 14:25</h3>
-                    </th>
-                  </tr>
-              </table>
-
-					<table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                  <tr>
-                    <th style="background-color: #5a5a5a;">
-                      <h2 class="session-header">
-                        Session #4A: Multi-Tier Inference and Serving
-                      </h2>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">14:25 - 15:00</h3>
-                    </th>
-                  </tr>
-                    <tr>
-			<td>
-				<header>
-					<h4>Real-Time Fusion of Device, Cloudlet &amp; Cloud AI</h4>
-					<br>
-					<span>
-						<i>
-						Qifei Dong, Jingao Xu, Padmanabhan Pillai, Roberta Klatzky, Mahadev Satyanarayanan (Carnegie Mellon University)
-						</i>
-						</span>
-					</header>
-			</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>
-                                  INAR-VL: Input-Aware Routing for Edge&ndash;Cloud Vision&ndash;Language Inference
-                                </h4>
-                                <br>
-																<span>
-																		<i>
-								Ahmed Šabanović, Paul Joe Maliakel, Ivona Brandić (TU Wien)
-																	</i>
-																</span>
-                            </header>
-                        	</td>
-                    </tr>
-          </table>
-
-          <table class="table table-striped table-responsive" style="border: 1px solid #969090;">
-                  <tr>
-                    <th style="background-color: #969090;">
-                      <h3 class="session-header">
-                       Coffee Break ☕
-                      </h3>
-                      <br>
-                      <h4 style="text-align: center;color: white; margin-top: -30px">
-                        15:00 - 15:20
-                      </h4>
-                    </th>
-                  </tr>
-        </table>
-
-					<table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                  <tr>
-                    <th style="background-color: #5a5a5a;">
-                      <h2 class="session-header">
-                        Session #4B: Multi-Tier Inference and Serving
-                      </h2>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">15:20 - 15:35</h3>
-                    </th>
-                  </tr>
-                    <tr>
-			<td>
-				<header>
-					<h4>FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving</h4>
-					<br>
-					<span>
-						<i>
-						Minghe Wang, Trever Schirmer, Mohammadreza Malekabbasi, David Bermbach (TU Berlin)
-						</i>
-						</span>
-					</header>
-			</td>
-                    </tr>
-          </table>
-
-				<table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                  <tr>
-                    <th style="background-color: #5a5a5a;">
-                      <h2 class="session-header">
-                        Session #5: Federated Learning
-                      </h2>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">15:35 - 16:30</h3>
-                    </th>
-                  </tr>
-                    <tr>
-                        <td>
-                            <header>
-                                <h4>
-                                  Data-Availability Co-Correlation: A Missing Dimension in Fair Federated Learning
-                                </h4>
-                                <br>
-																<span>
-																		<i>
-								Stefan Behfar, Richard Mortier (University of Cambridge)
-																	</i>
-																</span>
-                            </header>
-                        	</td>
-                    </tr>
-
-					<tr>
-                        <td>
-                            <header>
-                                <h4>
-                                 FedORA: Federated Objective-Resolved Adaptation for Non-Stationary Environments
-                                </h4>
-				 <br>
-																<span>
-																		<i>
-								Wai Fong Tam, Songyuan Li, Ahmed M. Abdelmoniem (Queen Mary University of London)
-																	</i>
-																</span>
-                            </header>
-                        	</td>
-            </tr>
-					<tr>
-                        <td>
-                            <header>
-                                <h4>
-                                 Telemetry-Aware Federated Learning Framework
-                                </h4>
-				 <br>
-																<span>
-																		<i>
-								Ashley Degl'Innocenti (Scuola Superiore Sant'Anna), Ahmed Salah Tawfik Ibrahim (CNIT), Layal Ismail (Scuola Superiore Sant'Anna), Rana Abu Bakar (CNIT), Andrea Sgambelluri (Scuola Superiore Sant'Anna), Francesco Paolucci, Filippo Cugini (CNIT), Juan Jose Vegas Olmos (NVIDIA), Piero Castoldi (Scuola Superiore Sant'Anna)
-																	</i>
-																</span>
-                            </header>
-                        	</td>
-            </tr>
-          </table>
-
-				 <table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
-                  <tr>
-                    <th style="background-color: #5a5a5a;">
-                      <h2 class="session-header">Panel / Closing Discussion</h2>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">Security, Privacy and Accountability in Next-Generation Intelligent Networked Systems
-                      </h3>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top:-20px">16:30 - 17:00</h3>
-                    </th>
+                    <td>
+                      <header>
+                        <h4>
+                          Understanding Concurrent DNN Interference on Mobile
+                          SoCs
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Zilin Ye, Qianyi HUANG (Sun Yat-sen University)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
                   </tr>
                   <tr>
                     <td>
                       <header>
+                        <h4>
+                          Phase Matters: Characterizing Heterogeneous
+                          Vision-Language Inference on a Mobile SoC
+                        </h4>
+                        <br />
                         <span>
-                          Moderator: Vadim Safronov (University of Oxford)<br>
-                          Panelists: Mahadev Satyanarayanan (Carnegie Mellon University), Poonam Yadav (University of York), Atakan Aral (University of Vienna)
+                          <i>
+                            Aryama V Murthy, Yashas N Kotre, Prathmesh Sharma,
+                            Pragya Mishra, Sanjith Ganapathi, Priyesh Shukla
+                            (International Institute of Information Technology
+                            Hyderabad, India)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          ThermalPrint: ML Workload Classification via Thermal
+                          Side-Channels
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Cenxi Tian, Soteris Demetriou (Imperial College
+                            London)
+                          </i>
                         </span>
                       </header>
                     </td>
                   </tr>
                 </table>
 
-				<table class="table table-striped table-responsive" style="border: 1px solid #5a5a5a;">
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
                   <tr>
-                    <th style="background-color: #5a5a5a;">
+                    <th style="background-color: #5a5a5a">
+                      <h3 class="session-header">
+                        Keynote #1: Dominic Pajak - Arm<br />
+                        Hybrid AI: Rethinking Where Intelligence Lives
+                      </h3>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        09:55 - 10:35
+                      </h3>
+                    </th>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #969090"
+                >
+                  <tr>
+                    <th style="background-color: #969090">
+                      <h3 class="session-header">Coffee Break ☕</h3>
+                      <br />
+                      <h4
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -30px;
+                        "
+                      >
+                        10:35 - 10:55
+                      </h4>
+                    </th>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
                       <h2 class="session-header">
-                       Final Remarks and Best Paper Award
+                        Session #2: ML Platforms and Evaluation Frameworks
                       </h2>
-                      <br>
-                      <h3 style="text-align: center;color: white; margin-top: -20px">
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        10:55 - 11:50
+                      </h3>
+                    </th>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          Architecture Adaptation for Pretrained Models on
+                          Constrained Edge AI Accelerators
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Matteo Gottardelli, Gaosheng Liu, Kasim Sinan
+                            Yildirim (University of Trento)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          EdgeStressBench: A Framework for Reproducible
+                          Evaluation of Edge Systems Under Resource Stress
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Maryam Pourreza, Priya Narasimhan (Carnegie Mellon
+                            University)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          Morphling: Emulator for Distributed Machine Learning
+                          at the Edge
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Leyang Xue, Yufeng Xia, Eren Mendi, Ismaeel Bashir,
+                            Jiaxun Yang (University of Edinburgh), Myungjin Lee
+                            (Cisco Research), Mahesh Marina (University of
+                            Edinburgh)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #969090"
+                >
+                  <tr>
+                    <th style="background-color: #969090">
+                      <h2 class="session-header">Lunch Break 🥗 🍖 🍺</h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        11:50 - 12:50
+                      </h3>
+                    </th>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
+                      <h2 class="session-header">
+                        Session #3: Sensing, Networking, and Stream Processing
+                      </h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        12:50 - 13:45
+                      </h3>
+                    </th>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          locRoaming: Seamless Private 5G WiFi Convergence
+                          through Continuous Client Positioning
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Yu-Tai Lin (Georgia Institute of Technology),
+                            Mohamed Ibrahim, Shivang Aggarwal (HPE Labs), Haofan
+                            Lu (UCLA), Puneet Sharma (Hewlett Packard Labs),
+                            Karthikeyan Sundaresan (Georgia Institute of
+                            Technology)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          GridAI: Edge AI Smart Grid Fault Detection with
+                          Goal-Oriented Communication
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            M. Burak Aydar (METU, FRESHDATA Technology), Sajjad
+                            Baghaee (METU), Keyvan Firuzi (HV LAB, METU), Elif
+                            Uysal (METU, FRESHDATA Technology), Görkem Yıldırım
+                            (METU)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          Wagg: Cost-aware Aggregation of Windowing Operators in
+                          Stream Processing
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Pritish Mishra (University of Toronto), Ruoyu Deng
+                            (McGill University), Alexandre da Silva Veith (Nokia
+                            Bell Labs), Oana Balmau (McGill University), Eyal de
+                            Lara (University of Toronto)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
+                      <h3 class="session-header">
+                        Keynote #2: Niki Trigoni - University of Oxford<br />
+                        Location, Mapping and Semantic Scene Understanding of
+                        Complex Workplace Scenes
+                      </h3>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        13:45 - 14:25
+                      </h3>
+                    </th>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
+                      <h2 class="session-header">
+                        Session #4A: Multi-Tier Inference and Serving
+                      </h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        14:25 - 15:00
+                      </h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          Real-Time Fusion of Device, Cloudlet &amp; Cloud AI
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Qifei Dong, Jingao Xu, Padmanabhan Pillai, Roberta
+                            Klatzky, Mahadev Satyanarayanan (Carnegie Mellon
+                            University)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          INAR-VL: Input-Aware Routing for Edge&ndash;Cloud
+                          Vision&ndash;Language Inference
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Ahmed Šabanović, Paul Joe Maliakel, Ivona Brandić
+                            (TU Wien)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #969090"
+                >
+                  <tr>
+                    <th style="background-color: #969090">
+                      <h3 class="session-header">Coffee Break ☕</h3>
+                      <br />
+                      <h4
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -30px;
+                        "
+                      >
+                        15:00 - 15:20
+                      </h4>
+                    </th>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
+                      <h2 class="session-header">
+                        Session #4B: Multi-Tier Inference and Serving
+                      </h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        15:20 - 15:35
+                      </h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          FaaSMoE: A Serverless Framework for Multi-Tenant
+                          Mixture-of-Experts Serving
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Minghe Wang, Trever Schirmer, Mohammadreza
+                            Malekabbasi, David Bermbach (TU Berlin)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
+                      <h2 class="session-header">
+                        Session #5: Federated Learning
+                      </h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        15:35 - 16:30
+                      </h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          Data-Availability Co-Correlation: A Missing Dimension
+                          in Fair Federated Learning
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Stefan Behfar, Richard Mortier (University of
+                            Cambridge)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>
+                          FedORA: Federated Objective-Resolved Adaptation for
+                          Non-Stationary Environments
+                        </h4>
+                        <br />
+                        <span>
+                          <i>
+                            Wai Fong Tam, Songyuan Li, Ahmed M. Abdelmoniem
+                            (Queen Mary University of London)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <h4>Telemetry-Aware Federated Learning Framework</h4>
+                        <br />
+                        <span>
+                          <i>
+                            Ashley Degl'Innocenti (Scuola Superiore Sant'Anna),
+                            Ahmed Salah Tawfik Ibrahim (CNIT), Layal Ismail
+                            (Scuola Superiore Sant'Anna), Rana Abu Bakar (CNIT),
+                            Andrea Sgambelluri (Scuola Superiore Sant'Anna),
+                            Francesco Paolucci, Filippo Cugini (CNIT), Juan Jose
+                            Vegas Olmos (NVIDIA), Piero Castoldi (Scuola
+                            Superiore Sant'Anna)
+                          </i>
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
+                      <h2 class="session-header">Panel / Closing Discussion</h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        Security, Privacy and Accountability in Next-Generation
+                        Intelligent Networked Systems
+                      </h3>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
+                        16:30 - 17:00
+                      </h3>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <header>
+                        <span>
+                          Moderator: Vadim Safronov (University of Oxford)<br />
+                          Panelists: Mahadev Satyanarayanan (Carnegie Mellon
+                          University), Poonam Yadav (University of York), Atakan
+                          Aral (University of Vienna)
+                        </span>
+                      </header>
+                    </td>
+                  </tr>
+                </table>
+
+                <table
+                  class="table table-striped table-responsive"
+                  style="border: 1px solid #5a5a5a"
+                >
+                  <tr>
+                    <th style="background-color: #5a5a5a">
+                      <h2 class="session-header">
+                        Final Remarks and Best Paper Award
+                      </h2>
+                      <br />
+                      <h3
+                        style="
+                          text-align: center;
+                          color: white;
+                          margin-top: -20px;
+                        "
+                      >
                         17:00 - 17:10
                       </h3>
                     </th>
                   </tr>
                 </table>
               </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-</div>
 
-
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-          <p align="center">
-            <a href="index.html">Home</a> |
-            <a href="committee.html">Committee</a> |
-            <a href="keynote.html">Keynote</a> |
-            <a href="programme.html">Programme</a> |
-      <a href="submission.html">Call For Papers</a> |
-      <a href="accepted_papers.html">Accepted Papers</a>
-          </p>
-          <p align="center"> &copy; EdgeSys | Powered by <a
-                  href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-          </p>
-          <p align="center">
-          Web Chair: Dewant Katare, Maitham Al-rubaye, and Mohit Bidikar
-          </p>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p align="center">
+              <a href="index.html">Home</a> |
+              <a href="committee.html">Committee</a> |
+              <a href="keynote.html">Keynote</a> |
+              <a href="programme.html">Programme</a> |
+              <a href="submission.html">Call For Papers</a> |
+              <a href="accepted_papers.html">Accepted Papers</a>
+            </p>
+            <p align="center">
+              &copy; EdgeSys | Powered by
+              <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+            </p>
+            <p align="center">
+              Web Chair: Dewant Katare, Maitham Al-rubaye, and Mohit Bidikar
+            </p>
+          </div>
+        </div>
       </div>
+    </footer>
 
-    </div>
-  </div>
-</footer>
+    <!-- FOOTER SECTION END-->
 
-<!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script src="lib/js/jquery-1.11.1.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="lib/js/bootstrap.js"></script>
 
-<!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-<!-- CORE JQUERY SCRIPTS -->
-<script src="lib/js/jquery-1.11.1.js"></script>
-<!-- BOOTSTRAP SCRIPTS  -->
-<script src="lib/js/bootstrap.js"></script>
-
-<script>
-
-    $("header").click(function () {
+    <script>
+      $("header").click(function () {
         if ($(this).next().css("display") == "block") {
-            $("header").next().hide()
-	    $("header").find('span').css("font-weight", "normal")
+          $("header").next().hide();
+          $("header").find("span").css("font-weight", "normal");
         } else {
-            // reset all fields in other tabs
-            $("header").next().hide()
-            $("header").find('span').css("font-weight", "normal")
-            // apply styling
-            $(this).next().show()
-            $(this).find('span').css("font-weight", "bold")
+          // reset all fields in other tabs
+          $("header").next().hide();
+          $("header").find("span").css("font-weight", "normal");
+          // apply styling
+          $(this).next().show();
+          $(this).find("span").css("font-weight", "bold");
         }
+      });
 
-    })
+      $("table")
+        .find("div")
+        .click(function () {
+          $(this).hide();
+          $(this).prev().find("span").css("font-weight", "normal");
+        });
 
-    $("table").find("div").click(function () {
-        $(this).hide();
-	$(this).prev().find('span').css("font-weight", "normal");
-    })
-
-    $('li').click(function () {
-        if ($(this).attr('id') == 'tab1') {
-            $("#day1").show()
-            $("#day2").hide()
-            $("#day3").hide()
-        } else if ($(this).attr('id') == 'tab2') {
-            $("#day2").show()
-            $("#day1").hide()
-            $("#day3").hide()
+      $("li").click(function () {
+        if ($(this).attr("id") == "tab1") {
+          $("#day1").show();
+          $("#day2").hide();
+          $("#day3").hide();
+        } else if ($(this).attr("id") == "tab2") {
+          $("#day2").show();
+          $("#day1").hide();
+          $("#day3").hide();
         } else {
-            $("#day3").show()
-            $("#day1").hide()
-            $("#day2").hide()
+          $("#day3").show();
+          $("#day1").hide();
+          $("#day2").hide();
         }
-        $(".active").removeClass('active')
-        $(this).addClass('active')
-    })
+        $(".active").removeClass("active");
+        $(this).addClass("active");
+      });
 
-    // Setup the default day of workshop
-    $('document').ready(function(){
-        $("#day1").show()
-        $("#day2").hide()
-        $("#day3").hide()
-    })
-
-</script>
-
-</body>
+      // Setup the default day of workshop
+      $("document").ready(function () {
+        $("#day1").show();
+        $("#day2").hide();
+        $("#day3").hide();
+      });
+    </script>
+  </body>
 </html>
